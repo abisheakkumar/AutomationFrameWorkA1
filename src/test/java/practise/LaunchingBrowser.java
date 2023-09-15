@@ -30,14 +30,14 @@ public class LaunchingBrowser {
 		driver.findElement(By.id("submitButton")).click();
 		driver.findElement(By.linkText("Organizations")).click();
 		driver.findElement(By.xpath("//img[@alt='Create Organization...']")).click();
-		driver.findElement(By.name("accountname")).sendKeys("saraswathiAbisheak");
+		driver.findElement(By.name("accountname")).sendKeys("saraswathiAbisheak1");
 		
 		WebElement ele1=driver.findElement(By.name("industry"));
 		
 		Select sel1=new Select(ele1);
 		sel1.selectByValue("Communications");
 		
-		driver.findElement(By.id("phone")).sendKeys("654654654");
+		driver.findElement(By.id("phone")).sendKeys("6546546545");
 		driver.findElement(By.id("email1")).sendKeys("abc@gmail.com");
 		
 		WebElement ele2=driver.findElement(By.xpath("(//input[@title='Save [Alt+S]'])[2]"));
